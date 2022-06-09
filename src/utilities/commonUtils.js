@@ -3,8 +3,8 @@ import Home from "../container/Home/Home"
 export const TOTAL_SCREENS = [
     {
         screen_name: "Home",
-        component: Home
-    }
+        component: Home,
+    },
 ]
 
 export const GET_SCREEN_INDEX=(screen_name)=>{
