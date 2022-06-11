@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin: 50px 0 0 0;
+    
   }
   .about-me-parent {
     max-width: 1000px;
@@ -12,7 +13,9 @@
   .about-me-card {
     display: flex;
     width: 100%;
-    box-shadow: 0 0px 20px -2px #1f2235;
+    box-shadow: 0 0px 20px -2px var(--dark-orange);
+    background-color: #1f2235;;
+    color: white;
   }
   .about-me-profile {
     width: 50%;
@@ -48,7 +51,7 @@
     height: 12px;
     width: 12px;
     margin: 0 10px 0 0;
-    background-color: #ff5823;
+    background-color: #4db5ff;
     border-radius: 50%;
   }
   .about-me-options .highlighted-btn {
